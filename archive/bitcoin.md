@@ -1,3 +1,9 @@
+<!--
+  Title: Bitcoin Whitepaper in Markdown
+  Description: Initial Bitcoin Whitepaper in Markdown format published in 2008
+  Author: Satoshi Nakamoto
+  -->
+
 # Bitcoin: A Peer-to-Peer Electronic Cash System
 
 _This paper was originally published in 2008 by Satoshi Nakamoto, the founder of Bitcoin._

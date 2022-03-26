@@ -1,10 +1,8 @@
----
-title: Ethereum Whitepaper
-description: An introductory paper to Ethereum, published in 2013 before its launch.
-lang: en
-sidebar: true
-sidebarDepth: 2
----
+<!--
+  Title: Ethereum Whitepaper in Markdown
+  Description: Up-to-date Ethereum Whitepaper in Markdown format originally published in 20014
+  Author: Vitalik Buterin
+  -->
 
 # Ethereum Whitepaper
 
@@ -12,7 +10,7 @@ _This introductory paper was originally published in 2014 by Vitalik Buterin, th
 
 _While several years old, we maintain this paper because it continues to serve as a useful reference and an accurate representation of Ethereum and its vision. To learn about the latest developments of Ethereum, and how changes to the protocol are made, we recommend [this guide](/learn/)._
 
-[Open the Ethereum Whitepaper as a PDF](assets/Ethereum_White_Paper_2014.pdf)
+[Open the Ethereum whitepaper as a PDF](assets/Ethereum_White_Paper_2014.pdf)
 
 ## A Next-Generation Smart Contract and Decentralized Application Platform
 
