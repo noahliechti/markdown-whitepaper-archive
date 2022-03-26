@@ -4,7 +4,7 @@
   Author: @noahliechti
   -->
 
-# Crypto Currency Markdown Whitepaper Archive (up to date)
+# Crypto Currency Whitepaper Archive (Markdown)
 
 [![Licence](https://img.shields.io/github/license/noahliechti/markdown-whitepaper-archive?style=social)](https://github.com/noahliechti/markdown-whitepaper-archive/blob/main/LICENSE)
 [![Tweet](https://img.shields.io/twitter/url/https/github.com/jonsn0w/hyde.svg?style=social)](http://twitter.com/intent/tweet?text=Check%20out%20the%20most%20interesting%20whitepapers%20in%20the%20crypto%20space.%20Curated%20and%20transformed%20into%20%0A%20markdown%20for%20you%20by%20%40noahliechti&url=https://github.com/noahliechti/markdown-whitepaper-archive)
