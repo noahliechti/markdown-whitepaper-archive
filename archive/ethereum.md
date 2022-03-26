@@ -10,7 +10,7 @@ _This introductory paper was originally published in 2014 by Vitalik Buterin, th
 
 _While several years old, we maintain this paper because it continues to serve as a useful reference and an accurate representation of Ethereum and its vision. To learn about the latest developments of Ethereum, and how changes to the protocol are made, we recommend [this guide](/learn/)._
 
-[Open the Ethereum whitepaper as a PDF](assets/Ethereum_White_Paper_2014.pdf)
+[Open the original Ethereum whitepaper from 2014 as a PDF](assets/ethereum/ethereum_whitepaper_2014.pdf)
 
 ## A Next-Generation Smart Contract and Decentralized Application Platform
 
@@ -26,7 +26,7 @@ The mechanism behind proof-of-work was a breakthrough in the space because it si
 
 ### Bitcoin As A State Transition System
 
-![Ethereum state transition](assets/ethereum-state-transition.png)
+![Ethereum state transition](assets/ethereum/ethereum-state-transition.png)
 
 From a technical standpoint, the ledger of a cryptocurrency such as Bitcoin can be thought of as a state transition system, where there is a "state" consisting of the ownership status of all existing bitcoins and a "state transition function" that takes a state and a transaction and outputs a new state which is the result. In a standard banking system, for example, the state is a balance sheet, a transaction is a request to move $X from A to B, and the state transition function reduces the value in A's account by $X and increases the value in B's account by $X. If A's account has less than $X in the first place, the state transition function returns an error. Hence, one can formally define:
 
@@ -54,7 +54,7 @@ The first half of the first step prevents transaction senders from spending coin
 
 ### Mining
 
-![Ethereum blocks](assets/ethereum-blocks.png)
+![Ethereum blocks](assets/ethereum/ethereum-blocks.png)
 
 If we had access to a trustworthy centralized service, this system would be trivial to implement; it could simply be coded exactly as described, using a centralized server's hard drive to keep track of the state. However, with Bitcoin we are trying to build a decentralized currency system, so we will need to combine the state transaction system with a consensus system in order to ensure that everyone agrees on the order of transactions. Bitcoin's decentralized consensus process requires nodes in the network to continuously attempt to produce packages of transactions called "blocks". The network is intended to produce roughly one block every ten minutes, with each block containing a timestamp, a nonce, a reference to (ie. hash of) the previous block and a list of all of the transactions that have taken place since the previous block. Over time, this creates a persistent, ever-growing, "blockchain" that constantly updates to represent the latest state of the Bitcoin ledger.
 
@@ -84,7 +84,7 @@ Once step (1) has taken place, after a few minutes some miner will include the t
 
 ### Merkle Trees
 
-![SPV in Bitcoin](assets/spv-bitcoin.png)
+![SPV in Bitcoin](assets/ethereum/spv-bitcoin.png)
 
 _Left: it suffices to present only a small number of nodes in a Merkle tree to give a proof of the validity of a branch._
 
@@ -167,7 +167,7 @@ Note that the gas allowance assigned by a transaction or contract applies to the
 
 ### Ethereum State Transition Function
 
-![Ether state transition](assets/ether-state-transition.png)
+![Ether state transition](assets/ethereum/ether-state-transition.png)
 
 The Ethereum state transition function, `APPLY(S,TX) -> S'` can be defined as follows:
 
@@ -210,7 +210,7 @@ The formal execution model of EVM code is surprisingly simple. While the Ethereu
 
 ### Blockchain and Mining
 
-![Ethereum apply block diagram](assets/ethereum-apply-block-diagram.png)
+![Ethereum apply block diagram](assets/ethereum/ethereum-apply-block-diagram.png)
 
 The Ethereum blockchain is in many ways similar to the Bitcoin blockchain, although it does have some differences. The main difference between Ethereum and Bitcoin with regard to the blockchain architecture is that, unlike Bitcoin, Ethereum blocks contain a copy of both the transaction list and the most recent state. Aside from that, two other values, the block number and the difficulty, are also stored in the block. The basic block validation algorithm in Ethereum is as follows:
 
@@ -421,7 +421,7 @@ The issuance model will be as follows:
 
 #### Long-Term Supply Growth Rate (percent)
 
-![Ethereum inflation](assets/ethereum-inflation.png)
+![Ethereum inflation](assets/ethereum/ethereum-inflation.png)
 
 _Despite the linear currency issuance, just like with Bitcoin over time the supply growth rate nevertheless tends to zero_.
 
