@@ -63,4 +63,4 @@ To request a whitepaper please open an issue. In general the whitepaper has to b
 
 ## Spread The Knowledge
 
-If you found this resource helpful, give it a ⭐️ and share it with your job-seeking frens or your twitter community.
+If you found this resource helpful, give it a ⭐️ and share it with your crypto frens or your twitter community.
