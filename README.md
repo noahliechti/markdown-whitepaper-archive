@@ -14,7 +14,7 @@
 - [Archive](#archive)
   - [Bitcoin Whitepaper](#bitcoin-whitepaper)
   - [Ethereum Whitepaper](#ethereum-whitepaper)
-  - [Whitepapers Comings Soon](#whitepapers-comings-soon)
+  - [Whitepapers Coming Soon](#whitepapers-comings-soon)
 - [How To Contribute](#how-to-contribute)
 - [Spread The Knowledge](#spread-the-knowledge)
 
