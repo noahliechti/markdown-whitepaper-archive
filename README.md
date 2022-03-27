@@ -11,10 +11,11 @@
 [![Fork](https://img.shields.io/github/forks/noahliechti/markdown-whitepaper-archive?style=social)](https://github.com/noahliechti/markdown-whitepaper-archive/fork)
 
 - [Why should I use this archive?](#why-should-i-use-this-archive)
+- [How to use](#how-to-use)
 - [Archive](#archive)
   - [Bitcoin Whitepaper](#bitcoin-whitepaper)
   - [Ethereum Whitepaper](#ethereum-whitepaper)
-  - [Whitepapers Coming Soon](#whitepapers-comings-soon)
+  - [Whitepapers Comings Soon](#whitepapers-comings-soon)
 - [How To Contribute](#how-to-contribute)
 - [Spread The Knowledge](#spread-the-knowledge)
 
@@ -23,6 +24,14 @@
 - Open-source projects evolve and so do whitepapers. We update the whitepapers as soon as there is a new version
 - Usually whitepapers are published in PDF format. Markdown makes it easy to [embed and display](https://github.com/noahliechti/markdown-whitepaper-archive/fork) them in your own projects and format them how you like.
 - There is no need to spend time searching for whitepapers. We curate all of them in one place
+
+## How to use
+
+1. [Fork this repository](https://github.com/noahliechti/markdown-whitepaper-archive/fork)
+2. Clone your fork to your local environment
+3. Create a feature branch `git checkout -b highlights`
+4. Highlight interesting sections with `<mark>highlighted text</mark>` and commit your changes with `git commit -m 'add description here'`
+5. Push your changes to your own repo with `git push -u origin highlights`
 
 ## Archive
 
